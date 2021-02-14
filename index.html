@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <i class="bi bi-truck"></i>
+            <div class="cart-button">
+                <button id="open-panel">
+                    <i class="bi bi-cart2"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart-panel">
+        <div class="cart-header">
+            <button id="close-panel">
+                <i class="bi bi-arrow-right"></i>
+            </button>
+            <h4>Cart</h4>
+        </div>
+
+        <div class="cart-content">
+            <div class="products">
+                <div class="product">
+                    <img width="80" src="images/iphone-12-pro.png" alt="iphone">
+                    <div>
+                        <span>
+                            iPhone 12 Pro Max
+                        </span>
+                    </div>
+                    <button>
+                        <i class="bi bi-x"></i>
+                    </button>
+                </div>
+
+                <div class="product">
+                    <img width="80" src="images/ipad.png" alt="ipad">
+                    <div>
+                        <span>
+                            iPad Air
+                        </span>
+                    </div>
+                    <button>
+                        <i class="bi bi-x"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="checkout-button">
+                <button>
+                    Checkout
+                    <i class="bi bi-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
